@@ -1,0 +1,40 @@
+{
+  "name": "documon/renderer-markdown",
+  "description": "Markdown renderer for Documon",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Jace Ju",
+      "email": "jaceju@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "^7.0|^8.0",
+    "mockery/mockery": "^1.2",
+    "codedungeon/phpunit-result-printer": "^0.26"
+  },
+  "suggest": {
+    "spatie/phpunit-watcher": "Automatically rerun PHPUnit tests when source code changes (Install globally)",
+    "mikey179/vfsStream": "Virtual file system to mock the real file system in unit tests.",
+    "orchestra/testbench": "Laravel Testing Helper for Packages Development"
+  },
+  "autoload": {
+    "psr-4": {
+      "Documon\\Renderer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Documon\\Renderer\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "process-timeout": 0
+  },
+  "license": "MIT"
+}
