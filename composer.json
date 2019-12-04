@@ -10,7 +10,11 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">=7.2"
+    "php": ">=7.2",
+    "documon/contract": "^0.1.0",
+    "erusev/parsedown": "^1.7",
+    "erusev/parsedown-extra": "^0.7.1",
+    "jenssegers/blade": "^1.2"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
